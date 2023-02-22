@@ -1,4 +1,4 @@
-/****************************************************************************/
+ï»¿/****************************************************************************/
 /*                                                                          */
 /*   metapad 3.6                                                            */
 /*                                                                          */
@@ -20,7 +20,7 @@
 /****************************************************************************/
 
 #define WIN32_LEAN_AND_MEAN
-#define _WIN32_WINNT 0x0400
+#define _WIN32_WINNT 0x0500
 
 #ifdef BUILD_METAPAD_UNICODE
 #define _UNICODE
@@ -161,7 +161,7 @@ extern atoi(const char*);
 #define STR_URL _T("http://liquidninja.com/metapad")
 #define STR_REGKEY _T("SOFTWARE\\metapad")
 #define STR_FAV_APPNAME _T("Favourites")
-#define STR_COPYRIGHT _T("© 1999-2011 Alexander Davidson")
+#define STR_COPYRIGHT _T("(C) 1999-2011 Alexander Davidson")
 
 ///// Macros /////
 
